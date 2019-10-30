@@ -16,7 +16,7 @@ MonoBehaviour:
   mSprites:
   - name: Bomb
     x: 0
-    y: 117
+    y: 142
     width: 162
     height: 139
     borderLeft: 0
@@ -29,9 +29,35 @@ MonoBehaviour:
     paddingBottom: 0
   - name: Hexagon
     x: 0
-    y: 10
+    y: 35
     width: 123
     height: 106
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Shape1
+    x: 234
+    y: 282
+    width: 233
+    height: 230
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Shape2
+    x: 0
+    y: 282
+    width: 233
+    height: 230
     borderLeft: 0
     borderRight: 0
     borderTop: 0

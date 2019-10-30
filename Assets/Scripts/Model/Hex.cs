@@ -7,6 +7,7 @@ public class Hex : MonoBehaviour
     public int x;
     public int y;
     public float distance;
+    public int neighborNumber;
 
     UISprite sprite;
 
@@ -22,6 +23,7 @@ public class Hex : MonoBehaviour
 
     public void MakeNormal()
     {
+        neighborNumber = 0;
         sprite.color = Color.yellow;
     }
 

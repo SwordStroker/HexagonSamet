@@ -13,7 +13,7 @@ public class GridControllerEditor : Editor
         GridController gridController = target as GridController;
 
         if (GUILayout.Button("Generate Grid"))
-            gridController.CreateMap();
+            gridController.CreateHexagonMap();
 
         if (GUILayout.Button("Clear Grid"))
             gridController.ClearGrid();
